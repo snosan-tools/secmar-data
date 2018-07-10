@@ -1,6 +1,13 @@
 # Changelog
 Ce fichier répertorie les changements de schéma du jeu de données SECMAR.
 
+## 2018-07-10
+Table `operations_stats`:
+- ajout de la colonne `date`
+- ajout de la colonne `jour_semaine`
+
+#### Pull requests
+https://github.com/entrepreneur-interet-general/predisauvetage/pull/40
 
 ## 2018-07-09
 Table `operations_stats`:
