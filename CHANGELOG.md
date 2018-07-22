@@ -1,6 +1,14 @@
 # Changelog
 Ce fichier répertorie les changements de schéma du jeu de données SECMAR.
 
+## 2018-07-22
+Table `operations_stats`:
+- ajout de la colonne `distance_cote_metres`
+- ajout de la colonne `distance_cote_milles_nautiques`
+
+#### Pull requests
+https://github.com/entrepreneur-interet-general/predisauvetage/pull/42
+
 ## 2018-07-10
 Table `operations_stats`:
 - ajout de la colonne `date`
