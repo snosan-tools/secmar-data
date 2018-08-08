@@ -1,6 +1,16 @@
 # Changelog
 Ce fichier répertorie les changements de schéma du jeu de données SECMAR.
 
+## 2018-08-08
+Table `operations_stats`:
+- ajout de la colonne `est_dans_stm`
+- ajout de la colonne `nom_stm`
+- ajout de la colonne `est_dans_dst`
+- ajout de la colonne `nom_dst`
+
+#### Commit
+https://github.com/entrepreneur-interet-general/predisauvetage/commit/765dfdbebedbac642a0eacd6017312b2803fa5db
+
 ## 2018-07-22
 Table `operations_stats`:
 - ajout de la colonne `distance_cote_metres`
