@@ -1,6 +1,12 @@
 # Changelog
 Ce fichier répertorie les changements de schéma du jeu de données SECMAR.
 
+## 2018-08-23
+Les fichiers CSV sont désormés triés dans l'ordre croissant selon la valeur de la colonne `operation_id`.
+
+#### Commit
+https://github.com/entrepreneur-interet-general/predisauvetage/commit/699d48987f95fc05892f8fdd8d63e42320d677d9
+
 ## 2018-08-08
 Table `operations_stats`:
 - ajout de la colonne `est_dans_stm`
