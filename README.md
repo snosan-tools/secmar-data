@@ -1,11 +1,16 @@
 # Base de données SECMAR
 Ce répertoire contient les jeux de données pour la base de données SECMAR disponible en open data sur la plateforme [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/).
 
-Ce répertoire contient uniquement les fichiers CSV du jeu de données SECMAR. Ces données sont disponibles sous [licence ouverte Etalab](https://www.etalab.gouv.fr/licence-ouverte-open-licence).
-
 Pour reporter des anomalies, poser des questions ou publier une réutilisation, merci de vous rendre sur [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/).
 
-## Clôner ce répertoire
-Si vous souhaitez clôner ce répertoire avec Git, veuillez noter que les fichiers CSV sont stockés avec [Git LFS](https://git-lfs.github.com/) étant donné leurs tailles.
+## Données
+Les fichiers sont distribués au format CSV et sont volumineux car comportant chacun plusieurs centaines de milliers de lignes. Ainsi, ils ne peuvent être stockés sur GitHub.
 
-Vous devez donc installer préalablement Git LFS et nous vous recommandons de clôner ensuite le répertoire avec la commande `git lfs clone git@github.com:MTES-MCT/secmar-data.git`.
+Les fichiers sont accessibles à tout instant dans leur version la plus récente aux adresses suivantes :
+- Pour les opérations : https://secmar.antoine-augusti.fr/operations.csv
+- Pour les flotteurs impliqués : https://secmar.antoine-augusti.fr/flotteurs.csv
+- Pour le bilan humain : https://secmar.antoine-augusti.fr/resultats_humain.csv
+- Pour les statistiques sur les opérations : https://secmar.antoine-augusti.fr/operations_stats.csv
+
+## Documentation
+La documentation de ce jeu de données est accessible en ligne à l'adresse https://mtes-mct.github.io/secmar-documentation/.
