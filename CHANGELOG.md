@@ -1,4 +1,4 @@
-# Changelog
+# Changements sur le jeu de données
 Ce fichier répertorie les changements de schéma du jeu de données SECMAR.
 
 ## 2018-08-23
