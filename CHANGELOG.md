@@ -1,5 +1,5 @@
 # Changements sur le jeu de données
-Ce fichier répertorie les changements de schéma du jeu de données SECMAR.
+Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
 ## 2018-08-23
 Les fichiers CSV sont désormés triés dans l'ordre croissant selon la valeur de la colonne `operation_id`.
