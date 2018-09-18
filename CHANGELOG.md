@@ -1,6 +1,18 @@
 # Changements sur le jeu de données
 Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
+### 2018-09-18
+- Correction des fuseaux horaires pour les CROSS de Nouvelle-Calédonie et Polynésie
+- La colonne `operations.numero_sitrep` est désormais renseignée pour les opérations avant 2010
+- Ajout des colonnes `operations_stats.nombre_personnes_blessees` et `operations_stats.nombre_personnes_blessees_sans_clandestins` dénombrant le nombre de personnes blessées dans chaque opération
+- Ajout de la colonne `operations.vent_direction_categorie` indiquant la direction du vent (par exemple : `nord-ouest`)
+
+**Commits**:
+- https://github.com/entrepreneur-interet-general/predisauvetage/commit/ee04005d8778bcbf2e1566ad5b6010980e5b0dfd
+- https://github.com/entrepreneur-interet-general/predisauvetage/commit/9a3a271188a0001e69b18f617e862e1f5ff91465
+- https://github.com/entrepreneur-interet-general/predisauvetage/commit/3d4d21a244c36979cee300ee70782e4982e9c919
+- https://github.com/entrepreneur-interet-general/predisauvetage/commit/a158bbcc2ca8da0f9c043de3938667216264045d
+
 ### 2018-08-23
 Les fichiers CSV sont désormés triés dans l'ordre croissant selon la valeur de la colonne `operation_id`.
 
