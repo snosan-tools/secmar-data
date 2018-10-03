@@ -1,6 +1,13 @@
 # Changements sur le jeu de données
 Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
+### 2018-10-03
+- La colonne `operations_stats.numero_semaine` a été renommée en `operations_stats.annee_semaine`. Elle contient l'année et la semaine, par exemple `2018-10`
+- La colonne `operation_stats.semaine` a été ajoutée. Elle contient uniquement le numéro de la semaine, par exemple `10`
+
+**Commits**:
+- https://github.com/entrepreneur-interet-general/predisauvetage/commit/e85941f836d6a718d1164a36afd119cde8b374e3
+
 ### 2018-09-18
 - Correction des fuseaux horaires pour les CROSS de Nouvelle-Calédonie et Polynésie
 - La colonne `operations.numero_sitrep` est désormais renseignée pour les opérations avant 2010
