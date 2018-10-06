@@ -1,6 +1,14 @@
 # Changements sur le jeu de données
 Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
+## 2018-10-06
+- Ajout d'une colonne `operations_stats.est_vacances_scolaires` qui indique si l'opération se déroule pendant les vacances scolaires de la zone A, B ou C
+- La plaisance légère est désormais catégorisée comme un loisir nautique (préalablement plaisance)
+
+**Commits**:
+- https://github.com/entrepreneur-interet-general/predisauvetage/commit/f35d711ca32aca127db3961f2fe1ceb91e16d98e
+- https://github.com/entrepreneur-interet-general/predisauvetage/commit/c6e1574f4f0ac0d1b46970d2e96e4ca776636e0d
+
 ### 2018-10-03
 - La colonne `operations_stats.numero_semaine` a été renommée en `operations_stats.annee_semaine`. Elle contient l'année et la semaine, par exemple `2018-10`
 - La colonne `operation_stats.semaine` a été ajoutée. Elle contient uniquement le numéro de la semaine, par exemple `10`
