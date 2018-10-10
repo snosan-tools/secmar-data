@@ -1,7 +1,7 @@
 # Changements sur le jeu de données
 Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
-## 2018-10-10
+### 2018-10-10
 La durée d'engagement des différents moyens est comptabilisée en heures en plus des minutes dans `operations_stats`.
 
 Ajout des colonnes suivantes :
@@ -12,7 +12,7 @@ Ajout des colonnes suivantes :
 **Commit**:
 - https://github.com/entrepreneur-interet-general/predisauvetage/commit/57c1d80d20694715afaf84f5641aaab294693a5d
 
-## 2018-10-06
+### 2018-10-06
 - Ajout d'une colonne `operations_stats.est_vacances_scolaires` qui indique si l'opération se déroule pendant les vacances scolaires de la zone A, B ou C
 - La plaisance légère est désormais catégorisée comme un loisir nautique (préalablement plaisance)
 
