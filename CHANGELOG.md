@@ -1,6 +1,17 @@
 # Changements sur le jeu de données
 Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
+### 2018-10-22
+Ajout de colonnes concernant la marée. On ajoute des informations sur la marée pour les opérations se déroulant sur les façades Atlantique et de la Manche, pour les opérations se déroulant à moins de 20km des côtes. Une trentaine de ports de référence sont utilisés pour avoir les coefficients des marées, jour par jour, depuis 1985.
+
+Ajout des colonnes suivantes :
+- `operations_stats.maree_port`
+- `operations_stats.maree_coefficient`
+- `operations_stats.maree_categorie`
+
+**Commit**:
+- https://github.com/entrepreneur-interet-general/predisauvetage/commit/d26d698900a92dc4e7aed3f1ec5faf942317b910
+
 ### 2018-10-10
 La durée d'engagement des différents moyens est comptabilisée en heures en plus des minutes dans `operations_stats`.
 
