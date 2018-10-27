@@ -1,6 +1,12 @@
 # Changements sur le jeu de données
 Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
+### 2018-10-27
+Nous ne prenions pas en compte les frontières de la Nouvelle-Calédonie lors du calcul des distances par rapport à la côte. Ceci est désormais réparé. Ainsi, les distances à la côte pour les interventions coordonnées par le CROSS en Nouvelle-Calédonie sont désormais cohérentes.
+
+**Issue**:
+- https://github.com/entrepreneur-interet-general/predisauvetage/issues/116
+
 ### 2018-10-22
 Ajout de colonnes concernant la marée. On ajoute des informations sur la marée pour les opérations se déroulant sur les façades Atlantique et de la Manche, pour les opérations se déroulant à moins de 20km des côtes. Une trentaine de ports de référence sont utilisés pour avoir les coefficients des marées, jour par jour, depuis 1985.
 
