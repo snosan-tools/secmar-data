@@ -1,6 +1,11 @@
 # Changements sur le jeu de données
 Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
+### 2018-10-31
+Ajout de la colonne `nombre_flotteurs_vehicule_nautique_a_moteur_impliques` dans `operations_stats` qui dénombre le nombre de véhicules nautique à moteur impliqués lors d'une opération.
+
+**Issue**: [Issue #117](https://github.com/entrepreneur-interet-general/predisauvetage/issues/117)
+
 ### 2018-10-27
 Nous ne prenions pas en compte les frontières de la Nouvelle-Calédonie lors du calcul des distances par rapport à la côte. Ceci est désormais réparé. Ainsi, les distances à la côte pour les interventions coordonnées par le CROSS en Nouvelle-Calédonie sont désormais cohérentes.
 
