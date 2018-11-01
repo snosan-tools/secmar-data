@@ -1,6 +1,11 @@
 # Changements sur le jeu de données
 Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
+### 2018-11-01
+Modification de la colonne `concerne_snosan` dans `operations_stats` pour prendre en compte les opérations qui n'ont pas de flotteurs impliqués mais qui sont pour des événements qui s'apparentent à du loisir.
+
+**Issue**: [Issue #123](https://github.com/entrepreneur-interet-general/predisauvetage/issues/123)
+
 ### 2018-10-31
 Ajout de la colonne `nombre_flotteurs_vehicule_nautique_a_moteur_impliques` dans `operations_stats` qui dénombre le nombre de véhicules nautique à moteur impliqués lors d'une opération.
 
