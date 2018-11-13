@@ -2,9 +2,9 @@
 Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
 ### 2018-11-13
-Ajout de la colonne `immatriculation_omi` dans flotteurs.
+Ajout de la colonne `immatriculation_omi` dans `flotteurs` et `nombre_navires_mas_omi` dans `operations_stats`.
 
-**Commit**: [predisauvetage@a0858f](https://github.com/entrepreneur-interet-general/predisauvetage/commit/a0858f7d92c99c1d8f17b105377f740975ce53d5)
+**Commits**: [predisauvetage@a0858f](https://github.com/entrepreneur-interet-general/predisauvetage/commit/a0858f7d92c99c1d8f17b105377f740975ce53d5), [predisauvetage@6a6e55](https://github.com/entrepreneur-interet-general/predisauvetage/commit/6a6e557ec366a58e1cbfd26c0a2960e5eacc8677)
 
 ### 2018-11-01
 Modification de la colonne `concerne_snosan` dans `operations_stats` pour prendre en compte les opérations qui n'ont pas de flotteurs impliqués mais qui sont pour des événements qui s'apparentent à du loisir.
