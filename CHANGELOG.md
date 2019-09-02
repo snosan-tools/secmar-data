@@ -1,6 +1,11 @@
 # Changements sur le jeu de données
 Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
+### 2019-09-02
+Amélioration de la précision des colonnes de distance à la côte : `distance_cote_metres` et `distance_cote_milles_nautiques` dans `operations_stats`. Certaines petites îles françaises n'étaient pas présentes dans le jeu de données précédemment utilisé pour calculer les distances. Ceci avait pour effet une distance plus élevée que la réalité.
+
+Ce problème est corrigé par l'utilisation du jeu de données [Contours des régions françaises sur OpenStreetMap](https://www.data.gouv.fr/fr/datasets/contours-des-regions-francaises-sur-openstreetmap/) en complètement des données existantes.
+
 ### 2018-11-13
 Ajout de la colonne `immatriculation_omi` dans `flotteurs` et `nombre_navires_mas_omi` dans `operations_stats`.
 
