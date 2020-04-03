@@ -1,6 +1,11 @@
 # Changements sur le jeu de données
 Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
+### 2020-04-03
+Ajout de la colonne `prefecture_maritime` dans `operations_stats`.
+
+**Pull request**: [#133](https://github.com/entrepreneur-interet-general/predisauvetage/pull/133)
+
 ### 2019-09-02
 Amélioration de la précision des colonnes de distance à la côte : `distance_cote_metres` et `distance_cote_milles_nautiques` dans `operations_stats`. Certaines petites îles françaises n'étaient pas présentes dans le jeu de données précédemment utilisé pour calculer les distances. Ceci avait pour effet une distance plus élevée que la réalité.
 
