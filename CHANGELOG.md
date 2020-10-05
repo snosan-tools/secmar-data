@@ -1,6 +1,11 @@
 # Changements sur le jeu de données
 Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
+### 2020-10-05
+Ajout de la colonne `avec_clandestins` dans `operations_stats`.
+
+**Pull request**: [#135](https://github.com/entrepreneur-interet-general/predisauvetage/pull/135)
+
 ### 2020-04-03
 Ajout de la colonne `prefecture_maritime` dans `operations_stats`.
 
