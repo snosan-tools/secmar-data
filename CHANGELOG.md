@@ -1,6 +1,16 @@
 # Changements sur le jeu de données
 Les changements de schéma du jeu de données SECMAR sont répertoriés ci-dessous.
 
+### 2022-09-19
+
+Intégration des données provenant de SeaMIS
+
+Un nouveau logiciel de coordination des opérations a été déployé dans les CROSS au début de l'année 2021. Ces données n'étaient préalablement pas intégrées dans cette publication open data, c'est désormais le cas. Le système SeaMIS étant en phase de neuvage, certains contrôles de cohérences statistiques ne sont pas encore présents. Ainsi, certaines valeurs sont absentes dans des colonnes qui n'en comportaient pas précédemment.
+
+L'absence de données va se résorber prochainement, à mesure que les contrôles de cohérences sont mis en place et que les systèmes de traitements des données évoluent.
+
+Toute remarque technique peut être adressée à l'adresse tech@snosan.fr
+
 ### 2020-10-05
 Ajout de la colonne `avec_clandestins` dans `operations_stats`.
 
